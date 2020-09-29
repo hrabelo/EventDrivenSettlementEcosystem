@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ESDE.Custody.Domain\ESDE.Custody.Domain.csproj" />
+    <ProjectReference Include="..\ESDE.Custody.Domain\EDSE.Custody.Domain.csproj" />
   </ItemGroup>
 
 </Project>

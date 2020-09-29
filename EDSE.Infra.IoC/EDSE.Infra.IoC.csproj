@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -9,13 +9,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ESDE.AssetCheck.Application\ESDE.AssetCheck.Application.csproj" />
-    <ProjectReference Include="..\ESDE.AssetCheck.Domain\ESDE.AssetCheck.Domain.csproj" />
-    <ProjectReference Include="..\ESDE.AssetCheck.Repository\ESDE.AssetCheck.Repository.csproj" />
-    <ProjectReference Include="..\ESDE.Custody.Application\ESDE.Custody.Application.csproj" />
-    <ProjectReference Include="..\ESDE.Custody.Domain\ESDE.Custody.Domain.csproj" />
-    <ProjectReference Include="..\ESDE.Custody.Repository\ESDE.Custody.Repository.csproj" />
-    <ProjectReference Include="..\ESDE.Infra.Bus\ESDE.Infra.Bus.csproj" />
+    <ProjectReference Include="..\ESDE.AssetCheck.Application\EDSE.AssetCheck.Application.csproj" />
+    <ProjectReference Include="..\ESDE.AssetCheck.Domain\EDSE.AssetCheck.Domain.csproj" />
+    <ProjectReference Include="..\ESDE.AssetCheck.Repository\EDSE.AssetCheck.Repository.csproj" />
+    <ProjectReference Include="..\ESDE.Custody.Application\EDSE.Custody.Application.csproj" />
+    <ProjectReference Include="..\ESDE.Custody.Domain\EDSE.Custody.Domain.csproj" />
+    <ProjectReference Include="..\ESDE.Custody.Repository\EDSE.Custody.Repository.csproj" />
+    <ProjectReference Include="..\ESDE.Infra.Bus\EDSE.Infra.Bus.csproj" />
   </ItemGroup>
 
 </Project>

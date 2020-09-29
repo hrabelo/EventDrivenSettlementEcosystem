@@ -6,11 +6,10 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ESDE.Custody.Domain\ESDE.Custody.Domain.csproj" />
+    <ProjectReference Include="..\ESDE.AssetCheck.Domain\EDSE.AssetCheck.Domain.csproj" />
   </ItemGroup>
 
 </Project>

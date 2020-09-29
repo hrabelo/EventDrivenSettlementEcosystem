@@ -17,23 +17,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3EA22E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{675C04DE-6C5B-4950-8B87-A45EA5DD1412}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESDE.AssetCheck.Api", "ESDE.AssetCheck.Api\ESDE.AssetCheck.Api.csproj", "{F4D895D4-CFE6-4A16-9E45-AF6B736407FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.AssetCheck.Api", "ESDE.AssetCheck.Api\EDSE.AssetCheck.Api.csproj", "{F4D895D4-CFE6-4A16-9E45-AF6B736407FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESDE.AssetCheck.Application", "ESDE.AssetCheck.Application\ESDE.AssetCheck.Application.csproj", "{F4F89637-3260-4DCE-B5F0-76C03E4A3AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.AssetCheck.Application", "ESDE.AssetCheck.Application\EDSE.AssetCheck.Application.csproj", "{F4F89637-3260-4DCE-B5F0-76C03E4A3AF2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESDE.AssetCheck.Domain", "ESDE.AssetCheck.Domain\ESDE.AssetCheck.Domain.csproj", "{B3FC0074-436F-482E-8162-4C15F5B4673D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.AssetCheck.Domain", "ESDE.AssetCheck.Domain\EDSE.AssetCheck.Domain.csproj", "{B3FC0074-436F-482E-8162-4C15F5B4673D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESDE.AssetCheck.Repository", "ESDE.AssetCheck.Repository\ESDE.AssetCheck.Repository.csproj", "{41194DC1-FC14-4F62-B37B-881FD398F89A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.AssetCheck.Repository", "ESDE.AssetCheck.Repository\EDSE.AssetCheck.Repository.csproj", "{41194DC1-FC14-4F62-B37B-881FD398F89A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ESDE.Infra.Bus", "ESDE.Infra.Bus\ESDE.Infra.Bus.csproj", "{6397BF75-5415-4270-805B-4FB7EE3389C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.Infra.Bus", "ESDE.Infra.Bus\EDSE.Infra.Bus.csproj", "{6397BF75-5415-4270-805B-4FB7EE3389C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESDE.Custody.Api", "ESDE.Custody.Api\ESDE.Custody.Api.csproj", "{99BE1D29-B654-42AB-A564-BEDB44240205}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDSE.Custody.Api", "ESDE.Custody.Api\EDSE.Custody.Api.csproj", "{99BE1D29-B654-42AB-A564-BEDB44240205}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESDE.Custody.Application", "ESDE.Custody.Application\ESDE.Custody.Application.csproj", "{2AB39E5B-2161-4E06-B8E3-FF3494504042}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDSE.Custody.Application", "ESDE.Custody.Application\EDSE.Custody.Application.csproj", "{2AB39E5B-2161-4E06-B8E3-FF3494504042}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESDE.Custody.Domain", "ESDE.Custody.Domain\ESDE.Custody.Domain.csproj", "{A95E07F4-AA99-4255-9B46-E35B8CE32099}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDSE.Custody.Domain", "ESDE.Custody.Domain\EDSE.Custody.Domain.csproj", "{A95E07F4-AA99-4255-9B46-E35B8CE32099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESDE.Custody.Repository", "ESDE.Custody.Repository\ESDE.Custody.Repository.csproj", "{BF2A485E-0F87-4A6E-8AF4-6DAC5F2F9739}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDSE.Custody.Repository", "ESDE.Custody.Repository\EDSE.Custody.Repository.csproj", "{BF2A485E-0F87-4A6E-8AF4-6DAC5F2F9739}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
