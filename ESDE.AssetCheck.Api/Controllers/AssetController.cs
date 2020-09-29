@@ -29,7 +29,7 @@ namespace ESDE.AssetCheck.Api.Controllers
         {
             var data = await _app.GetAssetPastDueDate(referenceDate);
 
-            _bus.Publish(data);
+            await _bus.Publish(data);
 
             return NoContent(); 
         }

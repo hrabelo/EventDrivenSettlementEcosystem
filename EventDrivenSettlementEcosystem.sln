@@ -17,13 +17,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{3EA22E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{675C04DE-6C5B-4950-8B87-A45EA5DD1412}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.AssetCheck.Api", "ESDE.AssetCheck.Api\EDSE.AssetCheck.Api.csproj", "{F4D895D4-CFE6-4A16-9E45-AF6B736407FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.Asset.Api", "ESDE.AssetCheck.Api\EDSE.Asset.Api.csproj", "{F4D895D4-CFE6-4A16-9E45-AF6B736407FE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.AssetCheck.Application", "ESDE.AssetCheck.Application\EDSE.AssetCheck.Application.csproj", "{F4F89637-3260-4DCE-B5F0-76C03E4A3AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.Asset.Application", "ESDE.AssetCheck.Application\EDSE.Asset.Application.csproj", "{F4F89637-3260-4DCE-B5F0-76C03E4A3AF2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.AssetCheck.Domain", "ESDE.AssetCheck.Domain\EDSE.AssetCheck.Domain.csproj", "{B3FC0074-436F-482E-8162-4C15F5B4673D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.Asset.Domain", "ESDE.AssetCheck.Domain\EDSE.Asset.Domain.csproj", "{B3FC0074-436F-482E-8162-4C15F5B4673D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.AssetCheck.Repository", "ESDE.AssetCheck.Repository\EDSE.AssetCheck.Repository.csproj", "{41194DC1-FC14-4F62-B37B-881FD398F89A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.Asset.Repository", "ESDE.AssetCheck.Repository\EDSE.Asset.Repository.csproj", "{41194DC1-FC14-4F62-B37B-881FD398F89A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EDSE.Infra.Bus", "ESDE.Infra.Bus\EDSE.Infra.Bus.csproj", "{6397BF75-5415-4270-805B-4FB7EE3389C1}"
 EndProject

@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ESDE.AssetCheck.Domain\EDSE.AssetCheck.Domain.csproj" />
+    <ProjectReference Include="..\ESDE.AssetCheck.Domain\EDSE.Asset.Domain.csproj" />
     <ProjectReference Include="..\ESDE.Custody.Domain\EDSE.Custody.Domain.csproj" />
   </ItemGroup>
 

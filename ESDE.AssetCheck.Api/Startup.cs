@@ -43,7 +43,7 @@ namespace ESDE.AssetCheck.Api
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Banking Microservice", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Asset Microservice", Version = "v1" });
             });
         }
 
@@ -67,7 +67,7 @@ namespace ESDE.AssetCheck.Api
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Banking Microservice V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Asset Microservice V1");
             });
 
 

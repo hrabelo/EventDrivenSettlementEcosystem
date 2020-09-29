@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EDSE.Infra.IoC\EDSE.Infra.IoC.csproj" />
-    <ProjectReference Include="..\ESDE.AssetCheck.Domain\EDSE.AssetCheck.Domain.csproj" />
+    <ProjectReference Include="..\ESDE.AssetCheck.Domain\EDSE.Asset.Domain.csproj" />
   </ItemGroup>
 
 

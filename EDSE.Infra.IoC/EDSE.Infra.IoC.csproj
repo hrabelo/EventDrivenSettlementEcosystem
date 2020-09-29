@@ -9,9 +9,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ESDE.AssetCheck.Application\EDSE.AssetCheck.Application.csproj" />
-    <ProjectReference Include="..\ESDE.AssetCheck.Domain\EDSE.AssetCheck.Domain.csproj" />
-    <ProjectReference Include="..\ESDE.AssetCheck.Repository\EDSE.AssetCheck.Repository.csproj" />
+    <ProjectReference Include="..\ESDE.AssetCheck.Application\EDSE.Asset.Application.csproj" />
+    <ProjectReference Include="..\ESDE.AssetCheck.Domain\EDSE.Asset.Domain.csproj" />
+    <ProjectReference Include="..\ESDE.AssetCheck.Repository\EDSE.Asset.Repository.csproj" />
     <ProjectReference Include="..\ESDE.Custody.Application\EDSE.Custody.Application.csproj" />
     <ProjectReference Include="..\ESDE.Custody.Domain\EDSE.Custody.Domain.csproj" />
     <ProjectReference Include="..\ESDE.Custody.Repository\EDSE.Custody.Repository.csproj" />
