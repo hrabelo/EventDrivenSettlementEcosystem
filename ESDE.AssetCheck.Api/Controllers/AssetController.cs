@@ -28,9 +28,10 @@ namespace ESDE.AssetCheck.Api.Controllers
         public async Task<IActionResult> Process(DateTime referenceDate)
         {
             var data = await _app.GetAssetPastDueDate(referenceDate);
-            await _bus.Publish(data);
 
-            return Ok();
+            _bus.Publish(data);
+
+            return NoContent(); 
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace ESDE.AssetCheck.Domain.Interfaces
 {
-    public interface IEventBus
+    public interface IEventBus 
     {
         Task Publish<T>(T content) where T : class;
     }

@@ -11,6 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ESDE.AssetCheck.Domain\ESDE.AssetCheck.Domain.csproj" />
+    <ProjectReference Include="..\ESDE.Custody.Domain\ESDE.Custody.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -12,6 +12,9 @@
     <ProjectReference Include="..\ESDE.AssetCheck.Application\ESDE.AssetCheck.Application.csproj" />
     <ProjectReference Include="..\ESDE.AssetCheck.Domain\ESDE.AssetCheck.Domain.csproj" />
     <ProjectReference Include="..\ESDE.AssetCheck.Repository\ESDE.AssetCheck.Repository.csproj" />
+    <ProjectReference Include="..\ESDE.Custody.Application\ESDE.Custody.Application.csproj" />
+    <ProjectReference Include="..\ESDE.Custody.Domain\ESDE.Custody.Domain.csproj" />
+    <ProjectReference Include="..\ESDE.Custody.Repository\ESDE.Custody.Repository.csproj" />
     <ProjectReference Include="..\ESDE.Infra.Bus\ESDE.Infra.Bus.csproj" />
   </ItemGroup>
 
