@@ -1,23 +1,16 @@
 ﻿using ESDE.AssetCheck.Domain.Interfaces;
 using System.Threading.Tasks;
 using RabbitMQ.Client.Core.DependencyInjection.Services;
-using RabbitMQ.Client.Core.DependencyInjection.MessageHandlers;
-using System;
 
 namespace ESDE.Infra.Bus
 {
-    public class RabbitMQBus : IEventBus, IMessageHandler
+    public class RabbitMQPublisher : IEventBus
     {
         private readonly IQueueService _queueService;
-        public RabbitMQBus(IQueueService queueService)
+        public RabbitMQPublisher(IQueueService queueService)
         {
             _queueService = queueService;
             
-        }
-
-        public void Handle(string message, string routingKey)
-        {
-            Console.WriteLine(message);
         }
 
         public async Task Publish<T>(T content) where T : class

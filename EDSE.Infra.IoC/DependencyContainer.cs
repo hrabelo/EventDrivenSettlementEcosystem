@@ -15,7 +15,7 @@ namespace EDSE.Infra.IoC
     {
         public static void AssetCheckRegisterServices(IServiceCollection services)
         {
-            services.AddTransient<IEventBus, RabbitMQBus>();
+            services.AddTransient<IEventBus, RabbitMQPublisher>();
 
             services.AddTransient<IAssetCheckApplication, AssetCheckApplication>();
             services.AddTransient<IAssetRepository, AssetRepository>();
@@ -25,7 +25,7 @@ namespace EDSE.Infra.IoC
 
         public static void CustodyRegisterServices(IServiceCollection services)
         {
-            services.AddTransient<IEventBus, RabbitMQBus>();
+            services.AddTransient<IEventBus, RabbitMQPublisher>();
 
             services.AddTransient<ICustodyApplication, CustodyApplication>();
             services.AddTransient<ICustodyRepository, CustodyRepository>();
